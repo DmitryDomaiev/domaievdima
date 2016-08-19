@@ -6,10 +6,10 @@ and some description is here and some description is here and some description i
 Scenario Outline: 
 Given the payroll for the employee with id 4 should display a salary of 9
 And the boss increases the salary for the employee with id 5 by 8%
-When <0123456789><01234567891>
+When <0123456789><01234567891555>
 
 Examples: 
-|0123456789|01234567891|
+|0123456789|01234567891555|
 |1|2|
 
 @SC_414020068
