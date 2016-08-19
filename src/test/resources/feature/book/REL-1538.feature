@@ -24,3 +24,8 @@ Scenario:
 Given the payroll for the employee with id 4 should display a salary of 9
 And the boss increases the salary for the employee with id 5 by 8%
 
+@SC_495573558
+Scenario: 
+Given the payroll for the employee with id 4 should display a salary of 9
+And the boss increases the salary for the employee with id 5 by 8%
+
