@@ -1,16 +1,6 @@
-@121tag @ST_404192608
+@ST_404192608 @121tag
 Feature: FeatOther Activities
 and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here
-
-@SC_495573558
-Scenario Outline: 
-Given the payroll for the employee with id 4 should display a salary of 9
-And the boss increases the salary for the employee with id 5 by 8%
-When <0123456789><01234567891555>
-
-Examples: 
-|0123456789|01234567891555|
-|1|2|
 
 @SC_414020068
 Scenario: Books
@@ -33,4 +23,14 @@ Then want i do "good"
 Scenario: 
 Given the payroll for the employee with id 4 should display a salary of 9
 And the boss increases the salary for the employee with id 5 by 8%
+
+@SC_495573558
+Scenario Outline: 
+Given the payroll for the employee with id 4 should display a salary of 9
+And the boss increases the salary for the employee with id 5 by 8%
+When <0123456789><01234567891555>
+
+Examples: 
+|0123456789|01234567891555|
+|1|2|
 
