@@ -7,7 +7,7 @@ Background: BACKBACKBACK
 Given a background
 And several conditions in it
 
-@SC_563840607 @YANA @scenario_003
+@YANA @SC_563840607 @scenario_003
 Scenario: Check scenario
 Given normal text
 And another row

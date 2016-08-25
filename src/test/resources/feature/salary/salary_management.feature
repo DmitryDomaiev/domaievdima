@@ -98,3 +98,8 @@ DESCRIPTION PUK
 Given kak
 And puk
 
+@SC_451065688
+Scenario: qweqrw
+Given qwe
+When saf
+
