@@ -2,19 +2,20 @@
 Feature: Feature1
 desc
 
+@SC_1075108665
+Scenario Outline: asdasfgfds
+Given <123><235>
+And <asd1>
+And <asd1>
+And <asfgg><r20935>
+
+Examples: 
+asd
+|123|235|asd1|asfgg|r20935|
+|1|1|1|2|3|
+
 @SC_895565568
 Scenario: afsgds
 Given asf
 And afs
-
-@SC_1075108665
-Scenario Outline: asdasfgfds
-Given <123><235>
-And <asd>
-
-Examples: 
-asd
-|123|asd|235|
-|1|1|1|
-
 
