@@ -7,7 +7,7 @@ Background: BACKBACKBACK
 Given a background
 And several conditions in it
 
-@SC_616056319 @YANA @scenario_002
+@YANA @SC_616056319 @scenario_002
 Scenario Outline: example table scenario
 with a description
 Given some certain stepdgfdhfdhdfhdfh
