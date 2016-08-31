@@ -2,6 +2,11 @@
 Feature: Feature1
 desc
 
+@SC_715502910
+Scenario: name
+Given f
+And r
+
 @SC_1075108665
 Scenario Outline: asdasfgfds
 Given <123><235>
