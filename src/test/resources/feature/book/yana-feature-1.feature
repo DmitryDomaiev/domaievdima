@@ -21,6 +21,7 @@ Examples:
 |2|2|
 |3|3|
 
+
 @YANA @SC_563840607 @scenario_003
 Scenario: Check scenario
 Given normal text
