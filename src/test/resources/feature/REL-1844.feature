@@ -40,3 +40,11 @@ Examples:
 |mickey|3|35000.0|
 |stive|4|45000.0|
 
+@fourth_scenario_tag @SC_597753177
+Scenario: Fourth scenario
+Given I created new scenario
+Then I see it synced in Relime
+And the salary management system is initialized with the following data
+And the customer searches for books published between 6 and 7
+And something more
+
