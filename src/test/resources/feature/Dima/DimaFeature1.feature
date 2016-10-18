@@ -1,13 +1,13 @@
-@teg @ST_221059875
+@ST_1946 @teg @ST_221059875
 Feature: Feature1
 desc
 
-@SC_175381393
+@SC_9048 @SC_175381393
 Scenario: name
 Given f
 And r
 
-@SC_150267991
+@SC_9049 @SC_150267991
 Scenario Outline: asdasfgfds
 Given <123><235>
 And <asd1>
@@ -20,8 +20,7 @@ asd
 |1|1|1|2|3|
 
 
-@SC_177110430
+@SC_9050 @SC_177110430
 Scenario: afsgds
 Given asf
 And afs
-
