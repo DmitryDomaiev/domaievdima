@@ -1,7 +1,7 @@
-@ST_8966
+@ST_22405
 Feature: Feture1ggg
 
-@SC_37668
+@SC_91792
 Scenario Outline: 
 Given jfjfjf
 And ufghi
@@ -16,7 +16,8 @@ Examples:
 ||
 ||
 
-@SC_37669
+
+@SC_91793
 Scenario: 
 Given bbbb
 And gggjj

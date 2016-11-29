@@ -1,7 +1,7 @@
-@ST_688226408
+@ST_22409
 Feature: FEATURE FROM RELIME
 
-@SC_788144082
+@SC_91823
 Scenario Outline: scenario with example table
 Given kuku
 And blabla <kdddddddddddddddddddddddddddddkk>
@@ -18,4 +18,3 @@ Examples:
 |3|3|7|
 |4|4|7|
 |5|5|7|
-

@@ -1,14 +1,14 @@
-@ST_730525850
+@ST_22406
 Feature: Book search OLD name
   To allow a customer to find his favourite books quickly, the library must offer multiple ways to search for a book.
 
 Background: 
 
+#comment for background
 Given a $100 microwave was sold on 2015-11-03
 And today is 2015-11-18
-#comment for background
 
-@Critical @Test_1 @SC_437171348 @fgfg
+@SC_91795 @Critical @Test_1 @fgfg
 Scenario: Search books by publication year
 ffg
 And another book with the title 'Some other book', written by 'Tim Tomson Junior', published in 23 August 2014
@@ -21,7 +21,7 @@ Then i want do smth with "smth"
 #And another book with the title 'How to cook a dino', written by 'Fred Flintstone', published in 01 January 2012
 #This is another example scenarios with table and example table
 
-@Critical @Test_1 @SC_437300219
+@SC_91796 @Critical @Test_1
 Scenario: Modify an employee's salary
 Given the salary management system is initialized with the following data
 |id|user|salary|
@@ -34,7 +34,8 @@ Given the salary management system is initialized with the following data
 |7|mickey|51000.0|
 |8|fethry|66500.0|
 
-@Test_1 @High @SC_437412107
+
+@SC_91797 @Test_1 @High
 Scenario Outline: Modify an employee's salary
 Given the salary management system is initialized with the following data
 When the boss increases the salary for the <user> with id <id> by 5%
@@ -51,7 +52,8 @@ Examples:
 |7|mickey|51000.0|
 |9|fethry|66500.0|
 
-@SC_612066604
+
+@SC_91798
 Scenario: Search books by publication year
 ffg
 And another book with the title 'Some other book', written by 'Tim Tomson Junior', published in 23 August 2014
@@ -64,7 +66,7 @@ Then i want do smth with "smth"
 #And another book with the title 'How to cook a dino', written by 'Fred Flintstone', published in 01 January 2012
 #This is another example scenarios with table and example table
 
-@SC_675777355
+@SC_91799
 Scenario: Modify an employee's salary
 Given the salary management system is initialized with the following data
 |id|user|salary|
@@ -77,7 +79,8 @@ Given the salary management system is initialized with the following data
 |7|mickey|51000.0|
 |8|fethry|66500.0|
 
-@SC_666047313
+
+@SC_91800
 Scenario Outline: Modify an employee's salary MODIFIED
 Given the salary management system is initialized with the following data
 When the boss increases the salary for the <user> with id <id> by 5% MODIFIED
@@ -94,7 +97,8 @@ Examples:
 |7|mickey|51000.0|
 |9|fethry|66500.0|
 
-@SC_887755839
+
+@SC_91801
 Scenario: new scenario
 Given asd
 And another book with the title 'Some other book', written by 'Tim Tomson Junior', published in 23 August 2014
@@ -107,7 +111,7 @@ Then i want do smth with "smth"
 #And another book with the title 'How to cook a dino', written by 'Fred Flintstone', published in 01 January 2012
 #This is another example scenarios with table and example table
 
-@SC_90920100
+@SC_91802
 Scenario: 9
 Given asd
 And another book with the title 'Some other book', written by 'Tim Tomson Junior', published in 23 August 2014
@@ -120,7 +124,7 @@ Then i want do smth with "smth"
 #And another book with the title 'How to cook a dino', written by 'Fred Flintstone', published in 01 January 2012
 #This is another example scenarios with table and example table
 
-@SC_67521415
+@SC_91803
 Scenario: 10
 Given asd
 And another book with the title 'Some other book', written by 'Tim Tomson Junior', published in 23 August 2014
@@ -133,7 +137,7 @@ Then i want do smth with "smth"
 #And another book with the title 'How to cook a dino', written by 'Fred Flintstone', published in 01 January 2012
 #This is another example scenarios with table and example table
 
-@SC_130781698
+@SC_91804
 Scenario: 11
 Given asd
 And another book with the title 'Some other book', written by 'Tim Tomson Junior', published in 23 August 2014
@@ -146,7 +150,7 @@ Then i want do smth with "smth"
 #And another book with the title 'How to cook a dino', written by 'Fred Flintstone', published in 01 January 2012
 #This is another example scenarios with table and example table
 
-@SC_126011244
+@SC_91805
 Scenario: 12
 Given asd
 And another book with the title 'Some other book', written by 'Tim Tomson Junior', published in 23 August 2014
@@ -159,7 +163,7 @@ Then i want do smth with "smth"
 #And another book with the title 'How to cook a dino', written by 'Fred Flintstone', published in 01 January 2012
 #This is another example scenarios with table and example table
 
-@SC_81164387
+@SC_91806
 Scenario: 13
 Given asd
 And another book with the title 'Some other book', written by 'Tim Tomson Junior', published in 23 August 2014
@@ -172,7 +176,7 @@ Then i want do smth with "smth"
 #And another book with the title 'How to cook a dino', written by 'Fred Flintstone', published in 01 January 2012
 #This is another example scenarios with table and example table
 
-@SC_112705853
+@SC_91807
 Scenario: 14
 Given asd
 And another book with the title 'Some other book', written by 'Tim Tomson Junior', published in 23 August 2014
@@ -185,7 +189,7 @@ Then i want do smth with "smth"
 #And another book with the title 'How to cook a dino', written by 'Fred Flintstone', published in 01 January 2012
 #This is another example scenarios with table and example table
 
-@SC_409192274
+@SC_91808
 Scenario: 8
 Given asd
 And another book with the title 'Some other book', written by 'Tim Tomson Junior', published in 23 August 2014
@@ -198,7 +202,7 @@ Then i want do smth with "smth"
 #And another book with the title 'How to cook a dino', written by 'Fred Flintstone', published in 01 January 2012
 #This is another example scenarios with table and example table
 
-@SC_450542501
+@SC_91809
 Scenario: 9
 Given asd
 And another book with the title 'Some other book', written by 'Tim Tomson Junior', published in 23 August 2014
@@ -211,7 +215,7 @@ Then i want do smth with "smth"
 #And another book with the title 'How to cook a dino', written by 'Fred Flintstone', published in 01 January 2012
 #This is another example scenarios with table and example table
 
-@SC_433127688
+@SC_91810
 Scenario: 10
 Given asd
 And another book with the title 'Some other book', written by 'Tim Tomson Junior', published in 23 August 2014
@@ -224,7 +228,7 @@ Then i want do smth with "smth"
 #And another book with the title 'How to cook a dino', written by 'Fred Flintstone', published in 01 January 2012
 #This is another example scenarios with table and example table
 
-@SC_431294552
+@SC_91811
 Scenario: 11
 Given asd
 And another book with the title 'Some other book', written by 'Tim Tomson Junior', published in 23 August 2014
@@ -237,7 +241,7 @@ Then i want do smth with "smth"
 #And another book with the title 'How to cook a dino', written by 'Fred Flintstone', published in 01 January 2012
 #This is another example scenarios with table and example table
 
-@SC_462425216
+@SC_91812
 Scenario: 12
 Given asd
 And another book with the title 'Some other book', written by 'Tim Tomson Junior', published in 23 August 2014
@@ -250,7 +254,7 @@ Then i want do smth with "smth"
 #And another book with the title 'How to cook a dino', written by 'Fred Flintstone', published in 01 January 2012
 #This is another example scenarios with table and example table
 
-@SC_392510622
+@SC_91813
 Scenario: 13
 Given asd
 And another book with the title 'Some other book', written by 'Tim Tomson Junior', published in 23 August 2014
@@ -263,7 +267,7 @@ Then i want do smth with "smth"
 #And another book with the title 'How to cook a dino', written by 'Fred Flintstone', published in 01 January 2012
 #This is another example scenarios with table and example table
 
-@SC_461852657
+@SC_91814
 Scenario: 14
 Given asd
 And another book with the title 'Some other book', written by 'Tim Tomson Junior', published in 23 August 2014
@@ -276,7 +280,7 @@ Then i want do smth with "smth"
 #And another book with the title 'How to cook a dino', written by 'Fred Flintstone', published in 01 January 2012
 #This is another example scenarios with table and example table
 
-@SC_439622822
+@SC_91815
 Scenario: 8
 Given asd
 And another book with the title 'Some other book', written by 'Tim Tomson Junior', published in 23 August 2014
@@ -289,7 +293,7 @@ Then i want do smth with "smth"
 #And another book with the title 'How to cook a dino', written by 'Fred Flintstone', published in 01 January 2012
 #This is another example scenarios with table and example table
 
-@SC_452502594
+@SC_91816
 Scenario: 9
 Given asd
 And another book with the title 'Some other book', written by 'Tim Tomson Junior', published in 23 August 2014
@@ -302,7 +306,7 @@ Then i want do smth with "smth"
 #And another book with the title 'How to cook a dino', written by 'Fred Flintstone', published in 01 January 2012
 #This is another example scenarios with table and example table
 
-@SC_425896961
+@SC_91817
 Scenario: 10
 Given asd
 And another book with the title 'Some other book', written by 'Tim Tomson Junior', published in 23 August 2014
@@ -315,7 +319,7 @@ Then i want do smth with "smth"
 #And another book with the title 'How to cook a dino', written by 'Fred Flintstone', published in 01 January 2012
 #This is another example scenarios with table and example table
 
-@SC_423101014
+@SC_91818
 Scenario: 11
 Given asd
 And another book with the title 'Some other book', written by 'Tim Tomson Junior', published in 23 August 2014
@@ -328,7 +332,7 @@ Then i want do smth with "smth"
 #And another book with the title 'How to cook a dino', written by 'Fred Flintstone', published in 01 January 2012
 #This is another example scenarios with table and example table
 
-@SC_456901132
+@SC_91819
 Scenario: 12
 Given asd
 And another book with the title 'Some other book', written by 'Tim Tomson Junior', published in 23 August 2014
@@ -341,7 +345,7 @@ Then i want do smth with "smth"
 #And another book with the title 'How to cook a dino', written by 'Fred Flintstone', published in 01 January 2012
 #This is another example scenarios with table and example table
 
-@SC_420558282
+@SC_91820
 Scenario: 13
 Given asd
 And another book with the title 'Some other book', written by 'Tim Tomson Junior', published in 23 August 2014
@@ -354,7 +358,7 @@ Then i want do smth with "smth"
 #And another book with the title 'How to cook a dino', written by 'Fred Flintstone', published in 01 January 2012
 #This is another example scenarios with table and example table
 
-@SC_451214388
+@SC_91821
 Scenario: 14
 Given asd
 And another book with the title 'Some other book', written by 'Tim Tomson Junior', published in 23 August 2014
@@ -367,7 +371,7 @@ Then i want do smth with "smth"
 #And another book with the title 'How to cook a dino', written by 'Fred Flintstone', published in 01 January 2012
 #This is another example scenarios with table and example table
 
-@SC_105531931
+@SC_91822
 Scenario: 8
 Given asd
 And another book with the title 'Some other book', written by 'Tim Tomson Junior', published in 23 August 2014
@@ -379,4 +383,3 @@ Then i want do smth with "smth"
 #Given a book with the title 'One good book', written by 'Anonymous', published in 14 March 2013
 #And another book with the title 'How to cook a dino', written by 'Fred Flintstone', published in 01 January 2012
 #This is another example scenarios with table and example table
-
