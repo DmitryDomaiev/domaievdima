@@ -31,3 +31,4 @@ Examples:
 Scenario: 
 Given asdasd
 When asdasd
+And asdgaga
