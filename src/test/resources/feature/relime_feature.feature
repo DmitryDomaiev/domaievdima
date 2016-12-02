@@ -25,3 +25,9 @@ Examples:
 ||||
 ||||
 ||||
+
+
+@SC_106596
+Scenario: 
+Given asdasd
+When asdasd
