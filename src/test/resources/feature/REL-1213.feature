@@ -35,7 +35,7 @@ Given the salary management system is initialized with the following data
 |8|fethry|66500.0|
 
 
-@SC_91797 @Test_1 @High
+@SC_91797 @High @Test_1
 Scenario Outline: Modify an employee's salary
 Given the salary management system is initialized with the following data
 When the boss increases the salary for the <user> with id <id> by 5%
