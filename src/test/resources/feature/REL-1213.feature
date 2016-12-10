@@ -10,7 +10,6 @@ And today is 2015-11-18
 
 @SC_91795 @Critical @Test_1 @fgfg
 Scenario: Search books by publication year
-ffg
 And another book with the title 'Some other book', written by 'Tim Tomson Junior', published in 23 August 2014
 When the customer searches for books published between 2013 and 2014
 Then 2 books should have been found

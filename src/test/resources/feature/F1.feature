@@ -1,5 +1,5 @@
 @ST_22405
-Feature: Feture1ggg
+Feature: Feture1
 
 @SC_91792
 Scenario Outline: 
@@ -18,6 +18,11 @@ Examples:
 
 
 @SC_91793
-Scenario: 
+Scenario Outline: 
 Given bbbb
 And gggjj
+And <123>
+
+Examples: 
+|123|
+||
