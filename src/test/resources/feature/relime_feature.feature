@@ -15,10 +15,3 @@ Examples:
 |3|3|7|
 |4|4|7|
 |5|5|7|
-
-
-@SC_128979
-Scenario: 
-Given some given
-When do something
-Then I do...
